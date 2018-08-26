@@ -6,7 +6,6 @@ res= requests.get(url)
 
 ppl= res.json()
 
-
 print("Number of people in space right now:", ppl['number'])
 print("\n")
 print("List of people in space with their spacecrafts:\n")
